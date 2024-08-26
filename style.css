@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: black;
+
+  display: flex;
+
+  justify-content: center;
+
+  padding: 50px;
+
+  font-family: "fantasy", "copperplate";
+}
+
+input {
+  background-color: aliceblue;
+}
+textarea {
+  background-color: aliceblue;
+}
+
+header {
+  background-image: linear-gradient(to right, aliceblue, lightskyblue);
+  padding: 5px;
+  border-width: 8px;
+  border-style: solid;
+  color: lightskyblue;
+}
+
+main {
+  display: flex;
+
+  justify-content: center;
+
+  background-image: linear-gradient(lightskyblue, aliceblue);
+}
+
+form {
+  border: 10px;
+  border-style: solid;
+  padding: 75px;
+  background-image: linear-gradient(lightskyblue, aliceblue);
+  border-image: linear-gradient(deepskyblue, aliceblue) 1;
+  border-width: 7px;
+  background-color: aliceblue;
+  font-size: larger;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
